@@ -1,9 +1,12 @@
 .movie-item {
     width: calc((100% - 120px) / 3);
-    margin: 0 0 50px;
+    margin: 0 60px 50px 0;
     color: rgba(255, 255, 255, .7);
     position: relative;
 
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
     .item-actions {
         min-width: 190px;
         padding: 15px 0;
